@@ -5,5 +5,5 @@ resource "aws_sns_topic" "cloudtrail_topic" {
 resource "aws_sns_topic_subscription" "cloudtrail_email_subscription" {
   topic_arn = aws_sns_topic.cloudtrail_topic.arn
   protocol  = "email"
-  endpoint  = "arunkumar_anandan@hcltech.com" 
+  endpoint  = "phanikumar.ramal@hcltech.com" 
 }
